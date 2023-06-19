@@ -1,9 +1,38 @@
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+    margin: 0;
+}
+
 body {
     font-family: 'Segoe UI';
     word-spacing: 50;
     
 }
+
 nav {
-    padding-left: 5rem;
-    padding-right: 5rem;
+    font-weight: 500;
+    display: flex;
+    justify-content: space-between;  
+    align-items: flex-start;
+    padding: 1rem; 
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    gap: 4rem;
+}
+
+.title{
+    font-weight: 700;
+    font-style: bold;
+    font-size: large;
+    letter-spacing: 5px;
+    display: flex;
+    align-items: flex-start;
+}
+.carapot{
+    max-inline-size: 2rem;
 }
