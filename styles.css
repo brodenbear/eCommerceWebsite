@@ -172,3 +172,14 @@ nav ul{
   text-align: left;
   text-shadow: black;
 }
+
+.learn-more-link {
+  color: RGB(191,118,49)
+  ;
+  text-decoration: underline;
+}
+button{
+  background:RGB(191,118,49);
+  color:white;
+  border: RGB(191,118,49);
+}
