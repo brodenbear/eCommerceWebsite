@@ -91,6 +91,8 @@ nav ul{
 }
 
 .cart-button {
+  background-color: white;
+  color: black;
   justify-self: center;
   align-self: center;
     position: relative;
@@ -128,14 +130,14 @@ nav ul{
     flex-wrap: wrap;
     padding-top: 2rem;
     position: relative;
-    max-height: 40rem;
+    max-height: 60rem;
     width: fit-content;
 }
 
 .homeimage img {
     display: flex;
-    width: fit-content;
-    height: 40rem;
+    width: 150rem;
+    height: 60rem;
     object-fit:fill;
 }
 
@@ -146,10 +148,11 @@ nav ul{
     transform: translate(-50%, -50%);
     letter-spacing: 2px;
     color: #fff;
-    font-size: 24px;
-    font-weight: 333;
+    font-size: 40px;
     text-align: left;
     text-shadow: black;
+    white-space: nowrap;
+    font-weight: 300;
 }
 
 .image-overlay {
@@ -160,26 +163,129 @@ nav ul{
   height: 100%;
   background: linear-gradient(to left, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), rgba(0, 0, 0, 1));
 }
-.text-overlay2 {
+.text-overlay2{
   position: absolute;
   top: 80%;
   left: 90%;
   transform: translate(-50%, -50%);
   letter-spacing: 2px;
   color: #fff;
-  font-size: 24px;
-  font-weight: 333;
+  font-size: 40px;
+  font-weight: 300;
   text-align: left;
   text-shadow: black;
+  white-space: nowrap;
 }
 
 .learn-more-link {
-  color: RGB(191,118,49)
-  ;
+  color: RGB(191,118,49);
   text-decoration: underline;
 }
 button{
   background:RGB(191,118,49);
   color:white;
   border: RGB(191,118,49);
+}
+
+
+h1{
+
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  flex-wrap: wrap;
+  margin-top: 5rem;
+  font-size: 32px;
+  font-weight: 475;
+  letter-spacing: 2px;
+  border-bottom: 4px solid black;
+  width: 60%;
+  margin: 5rem;
+}
+
+.container1{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.unglazed{
+  align-self: flex-end;
+  justify-content: baseline;
+  width: 30%;
+  transform: scaleX(-1);
+}
+
+.dame{
+  justify-self: flex-end;
+  align-self: flex-end;
+  max-height: 20%;
+  float: left;
+  max-width: 20%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.openingpara{
+  overflow: auto;
+  font-size: large;
+  width:40%;
+  margin: 10px;
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+.row{
+  width: 100%;
+  display: flex;
+  margin: 20px;
+  padding: 20px;
+}
+
+.imageproduct{
+  display: flex;
+  flex-wrap: wrap;
+  width: 250px;
+  height: 250px;
+  align-self: center;
+  justify-content: center;
+  border: grey 1px solid;
+}
+
+.name{
+  flex-wrap: wrap;
+  white-space: nowrap;
+  font-size: large;
+  font-weight: 475;
+  letter-spacing: 2px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  border-bottom-style: solid;
+  border-bottom-width: 3.1px;
+  width: 25%;
+}
+
+p{
+  overflow: auto;
+  font-size: large;
+  width:80%;
+  margin: 10px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.learn-more-link{
+  font-size: medium;
+}
+
+.buy{
+width: 100px;
+height: 25px;
+align-self: self-end;
+margin-left: 100px;
+}
+
+.contactus{
+
 }
